@@ -31,8 +31,7 @@ public class Shop {
 
     public void transfer(long diff) {
         long result = money.addAndGet(diff);
-        System.out.printf("выручка от %s составила %d рублей\n",
-                Thread.currentThread().getName(), diff);
+
     }
 
     public long getCurrent() {
